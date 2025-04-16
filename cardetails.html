@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar" style="background-color: black;">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/Logo.jpg" alt="DriveLux Logo" />
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="inventory.html">INVENTORY</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cta-button">Get in touch</a>
+    </header>
+
+    <div class="container">
+        <h1 id="car-title" style="font-size: 55px; padding-bottom: 10px;">Car Details</h1>
+        <div class="car-details">
+            <img id="car-image" src="" alt="Car Image">
+            <ul id="car-specs">
+                <!-- Car specifications will be dynamically inserted here -->
+            </ul>
+            <a href="inventory.html">Back to Inventory</a>
+        </div>
+    </div>
+
+    <footer class="footer" style="margin-top: 0 !important; padding: 100px 40px 20px 20px;">
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4 style="font-size: 12px;">Contact</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">WebProject@humber.ca</a></li>
+                    <li><a href="#">+1 (123)-456-7890</a></li>
+                    <li>Etobicoke, ON M9W 6C9</li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 style="font-size: 12px;">Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="newsletter">
+                <h4 style="font-size: 40px;">Our Newsletter</h4>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>© DriveLux 2023. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
